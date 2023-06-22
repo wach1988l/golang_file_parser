@@ -7,3 +7,5 @@ Keys has versions e.g. version_id (1_2 where one is version and 2 is id of csv r
 it is done for deleting old values when new file parsed. when file parsed successfully old version will be changed
 and we will remove old values.
 App can run using unix crontabs(configures every 30 minutes)
+run project
+go run main.go -path <fileName>
