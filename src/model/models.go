@@ -3,7 +3,7 @@ package model
 import "encoding/json"
 
 type CSVData struct {
-	NumId string
+	NumId string `json:"-"`
 
 	Id string `json:"id"`
 
